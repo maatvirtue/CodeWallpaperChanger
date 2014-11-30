@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" exported="true"/>
+	<classpathentry sourcepath="C:/Users/theprophet31337/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/3.2.7/f3786ad61d6524242d07ab40be534bf44f68770c/jna-3.2.7-sources.jar" kind="lib" path="C:/Users/theprophet31337/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/3.2.7/4f25aa7292f70e721a9b96a6ed49365ba6e03eab/jna-3.2.7.jar" exported="true"/>
+	<classpathentry sourcepath="C:/Users/theprophet31337/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/563dcb685903c96ce8abbd03adf7fa49e19aa8b4/gson-2.3.1-sources.jar" kind="lib" path="C:/Users/theprophet31337/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar" exported="true"/>
+</classpath>
