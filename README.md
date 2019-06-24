@@ -1,7 +1,7 @@
 CodeWallpaperChanger
 ====================
 
-TL;DR: execute example/codeWallpaperChanger.jar
+TL;DR: execute `./gradlew run`
 
 ### Teaser
 
@@ -16,4 +16,4 @@ If you answered yes, this project is for you!
 The CodeWallpaperChanger program picks a few source code files on your computer and
 generate a cool wallpaper for you (automatically changes your desktop background to the new wallpaper).
 
-Go try it and execute example/codeWallpaperChanger.jar !
+Go try it and execute `./gradlew run` !
