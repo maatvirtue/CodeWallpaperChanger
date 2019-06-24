@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<appender name="consoleLog" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>%m%n</pattern>
+		</encoder>
+	</appender>
+
+	<logger name="net.nlacombe.codewallpaperchanger">
+		<level value="info" />
+	</logger>
+
+	<root>
+		<level value="warning" />
+		<appender-ref ref="consoleLog" />
+	</root>
+</configuration>

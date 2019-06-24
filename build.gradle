@@ -1,0 +1,41 @@
+import java.nio.file.Paths
+
+apply plugin: 'java'
+
+defaultTasks 'tasks'
+
+group='net.nlacombe'
+version = "1.1"
+
+sourceCompatibility = 11
+targetCompatibility = 11
+
+dependencies {
+	compile 'net.java.dev.jna:jna:3.2.7'
+	compile 'com.google.code.gson:gson:2.3.1'
+	compile 'org.slf4j:slf4j-api:1.7.26'
+
+	runtime 'ch.qos.logback:logback-classic:1.2.3'
+}
+
+buildscript {
+    repositories {
+		mavenCentral()
+    }
+}
+
+repositories {
+	mavenCentral()
+}
+
+wrapper {
+    gradleVersion = '5.4.1'
+}
+
+task run(type: JavaExec) {
+	dependsOn jar
+
+	classpath = sourceSets.main.runtimeClasspath
+	main = 'net.nlacombe.codewallpaperchanger.main.Main'
+	workingDir = Paths.get("./example/").toFile()
+}
